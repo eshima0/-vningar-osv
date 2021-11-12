@@ -5,7 +5,7 @@ slump = random.randint(1, 10)
 klocka = 7.00
 
 #funktioner
-def check2():
+#def check2():
     
 def check():
     if klocka > 8:
@@ -45,6 +45,14 @@ elif frukost in ("N", "n"):
         klocka = klocka + 0.1
         time.sleep(0.3)
         print("\nDu väljer att surfa internet istället.\n")
+        print(f"Klockan är nu {klocka:.2f}\n")
+        
+        print("Det kan börja bli dags att gå till skolan.")
+        börjagå = input("Kommer du börja gå till skolan? [Y]/[N]\n")
+        if börjagå in ("Y", "y"):
+            klocka = 
+            print("Nice, du kommer inte sent till skolan")
+            print("Du hann dit klockan ")
 
 else:
     print("lägg ner")
